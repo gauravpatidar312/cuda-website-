@@ -36,10 +36,10 @@ margin-top: 60px;
 
 .header-content h3{
     color: #fff;
-    padding:10px 30px;
-    width:70%;
+   
+  text-align: center;
     font-size: 42px;
-    margin:0 auto;
+   margin:20px 30px;
 }
 .navbar-nav{
     display: flex;
@@ -54,9 +54,8 @@ margin-top: 60px;
     text-transform: uppercase;
     padding:10px 30px;
     margin-top: 20px;
-    font-size: 18px;
-    letter-spacing: 0px;
-    line-height: 26px;
+    font-size: 14px;
+    letter-spacing: 2px;
     color: #ffffff;
     font-family: "Titillium Web";
     font-weight: 600;
@@ -77,6 +76,7 @@ text-transform: uppercase;
 color: #ffffff;
 font-family: "Titillium Web";
 font-weight: 700;
+margin:0px 30px;
 }
 .content2 h5{
     font-family: 'Titillium Web', sans-serif;
@@ -149,8 +149,8 @@ font-weight: 300;
 .content3 h3{
     padding-top: 50px;
     text-transform: uppercase;
-    margin-left: 10px;
-margin-right: 10px;
+    margin-left: 30px;
+margin-right: 30px;
 font-size: 41px;
 letter-spacing: 4px;
 color: #3c4761;
@@ -191,22 +191,31 @@ font-weight: 300;
     padding:20px 0px; 
 }
 .trans_and_size3 p{
-padding:10px 20px;
-width:70%;
-margin:10px auto;
+text-align: center;
+margin:20px 10px;
 }
 .trans_and_size3 h5{
     text-transform: uppercase;
     font-size: 18px;
     margin-top: 20px;
 }
+.trans_and_size3 img{
+    max-width: 100%;
+    /* height: auto; */
+    border-radius: 50%;
+    background:gray;
+}
 .social-icons i{
     color:#fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
 }
 .icon-wrap{
     background: #bed1df;
-    display: inline;
-   padding:8px 10px;
+    display: inline-block;
+  width:40px;
+  height: 40px;
     border-radius: 50%;
     margin:5px;
     text-align: center;
@@ -233,7 +242,7 @@ padding-bottom: 10px;
     margin: 10px auto;
     padding:5px 30px;
     width:70%;
-
+text-transform: uppercase;
     font-size: 18px;
 letter-spacing: 0px;
 line-height: 26px;
@@ -247,15 +256,22 @@ text-align: center;
   padding-bottom: 70px;
     background: #ffdd99;
 }
-.trans_and_size4 img{
-    width:40%;
-  height: 200px;
-}
+
 .trans_and_size5{
     padding:5px 20px;
 }
+.trans_and_size4{
+margin:10px;
+}
 .trans_and_size4 p{
-text-transform: uppercase;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin:5px 0px;
+}
+
+.trans_and_size4 img{
+  width: 300px;
+   height: 250px;
 }
 .content-5 h3{
     padding-top: 50px;
@@ -268,24 +284,22 @@ font-family: "Titillium Web";
 font-weight: 700;
 text-align: center;
 }
-.content-5 p{
-    margin: 10px auto;
-    padding:5px 30px;
-    width:70%;
-    font-size: 18px;
+
+.neque-para{
+    margin:10px 20px;
+    font-size: 16px;
 letter-spacing: 0px;
-line-height: 20px;
 color: #393939;
 font-family: "Titillium Web";
 font-weight: 400;
 text-align: center;
-    
 }
 .trans_and_size h3{
 text-transform: uppercase;
 font-size: 15px;
 width:100%;
 }
+
 .chart{
     position: relative;
 }
@@ -310,7 +324,7 @@ width:100%;
 
 
 
-    font-size: 18px;
+    font-size: 14px;
 letter-spacing: 0px;
 line-height: 20px;
 color: #393939;
@@ -341,17 +355,23 @@ font-weight: 400;
     width:250px;
     height: 250px;
 }
+.products-1{
+    margin:30px 30px;
+    padding-bottom: 20px;
+}
+.products-inner{
+    margin:0 30px;
+}
 .products-1 button{
     background:#17c2a4;
     border:none;
-    margin-top: 20px;
+    margin-top: 70px;
     border-radius: 5px;
     border-bottom: 3px solid #14a58c;
     text-transform: uppercase;
     padding:8px 25px;
-    font-size: 18px;
+    font-size: 14px;
 letter-spacing: 0px;
-line-height: 26px;
 color: #ffffff;
 font-family: "Titillium Web";
 font-weight: 600;
@@ -361,17 +381,7 @@ font-weight: 600;
     width:100%;
    padding-bottom: 70px;
 }
-.content-6 h3{
-    color:#fff;
-    padding-top: 50px;
-    text-transform: uppercase;
-    font-size: 40px;
-letter-spacing: 4px;
-color: #ffffff;
-font-family: "Titillium Web";
-font-weight: 700;
-text-align: center;
-}
+
 .content-6 p{
     color:#fff;
     margin-top: 20px;
@@ -410,11 +420,23 @@ font-weight: 400;
 font-style: italic;
 }
 .ct-wr h3{
-    font-size: 24px;
-    padding-top: 1px;
+    font-size: 18px;
     text-align: left;
     font-weight: bold;
-  
+  color: #fff;
+  text-transform: uppercase;
+}
+.what-people-say{
+    color:#fff;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: 40px;
+letter-spacing: 4px;
+color: #ffffff;
+font-family: "Titillium Web";
+font-weight: 700;
+text-align: center;
+margin:0px 30px;
 }
 .ct-wr .para-yell{
     color:#ffdd99;
@@ -439,16 +461,41 @@ font-style: italic;
     color:#fff;
     margin-top: 20px;
     font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-transform: capitalize;
 }
-.content-7 form input{
+.content-7-form{
+    justify-content: space-between;
+}
+
+#inp1{
+    background:#273a71;
+    border:5px solid #3c5499;
+    color:#ffffff;
+    font-size: 18px;
+   margin-top: 10px;
+   padding-top: 10px;
+   border: none;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+    min-width: 48%;
+
+}
+#inp2{
     background:#273a71;
     border:none;
     color:#ffffff;
-    width:50%;
+    border:5px solid #3c5499;
     font-size: 18px;
-    padding:5px 15px;
-    margin:10px 10px;
+ margin-top: 10px;
+    min-width: 48%;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 ::-webkit-input-placeholder { /* Edge */
     color: #fff;
@@ -462,20 +509,27 @@ font-style: italic;
     color: #fff;
   }
 .content-7 form{
-    margin:50px auto;
+   width:60%;
+   margin:20px auto;
+  
 }
 .content-7 .row{
-    background:red;
+    
     margin:0 auto;
 }
 .content-7 form textarea{
     background:#273a71;
     border:none;
-    width: 100%;
     color:#ffffff;
+    font-size: 18px;
+   
     height: 200px;
-   padding:5px 25px;
-    margin:20px 10px;
+   margin-top: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   width: 100%;
 }
 .content-7 form button{
     text-transform: uppercase;
@@ -487,7 +541,7 @@ font-style: italic;
     border-radius:5px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 14px;
 }
 footer{
     width:100%;
@@ -537,4 +591,60 @@ line-height: 18px;
 color: #3c4761;
 font-family: "Titillium Web";
 font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1141px) and (max-width:1280px){
+    .trans_and_size4 img{
+        width: 350px;
+         height: 250px;
+      }
+}
+@media screen and (min-width:1001px) and (max-width:1140px){
+    .trans_and_size4 img{
+        width: 300px;
+         height: 225px;
+      }
+}
+@media screen and (max-width:1000px){
+    .trans_and_size4 img{
+        width: 250px;
+         height: 200px;
+      }
+      #inp1{
+        background:#273a71;
+        border:5px solid #3c5499;
+        color:#ffffff;
+        font-size: 18px;
+       margin-top: 10px;
+       padding-top: 10px;
+       border: none;
+       width: 100%;
+       padding-left: 10px;
+       padding-right: 10px;
+       padding-bottom: 10px;
+      
+    
+    }
+    #inp2{
+        background:#273a71;
+        border:none;
+        color:#ffffff;
+        border:5px solid #3c5499;
+        font-size: 18px;
+     margin-top: 10px;
+      width:100%;
+        border: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
